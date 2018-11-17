@@ -57,3 +57,7 @@ function getBranches(el){
   req.open('GET', 'https://api.github.com/repos/'+ repoUsername + '/' + repoName + '/branches')
   req.send();
 }
+
+function displayBranches() {
+  
+}
