@@ -19,7 +19,7 @@ function displayRepositories(){
           <li>
             ${r.name}
             <a href="${r.html_url}">${r.html_url}</a></br>
-            <a href=
+            
           </li`
       })
   document.getElementById('repositories').innerHTML = repoList;
